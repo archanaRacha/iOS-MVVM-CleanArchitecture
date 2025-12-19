@@ -41,18 +41,18 @@
 		677001572EE29586000A8206 /* Exceptions for "iOS-MVVM-CleanArchitecture" folder in "iOS-MVVM-CleanArchitectureTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Models/Movie.swift,
-				Models/MovieListViewModel.swift,
-				Service/APIServiceProtocol.swift,
+				Core/Models/Movie.swift,
+				Core/Service/APIServiceProtocol.swift,
+				Features/MovieList/MovieListViewModel.swift,
 			);
 			target = 67C60F7A2EB672CF006C36DF /* iOS-MVVM-CleanArchitectureTests */;
 		};
 		677001582EE29586000A8206 /* Exceptions for "iOS-MVVM-CleanArchitecture" folder in "iOS-MVVM-CleanArchitectureUITests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Models/Movie.swift,
-				Models/MovieListViewModel.swift,
-				Service/APIServiceProtocol.swift,
+				Core/Models/Movie.swift,
+				Core/Service/APIServiceProtocol.swift,
+				Features/MovieList/MovieListViewModel.swift,
 			);
 			target = 67C60F842EB672CF006C36DF /* iOS-MVVM-CleanArchitectureUITests */;
 		};
