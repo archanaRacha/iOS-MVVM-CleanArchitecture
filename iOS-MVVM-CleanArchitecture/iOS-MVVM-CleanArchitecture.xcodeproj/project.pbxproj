@@ -29,14 +29,50 @@
 		67C60F852EB672CF006C36DF /* iOS-MVVM-CleanArchitectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-MVVM-CleanArchitectureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6770007D2EDF4D3C000A8206 /* Exceptions for "iOS-MVVM-CleanArchitectureTests" folder in "iOS-MVVM-CleanArchitectureUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				MockAPIService.swift,
+				MovieListViewModelTests.swift,
+			);
+			target = 67C60F842EB672CF006C36DF /* iOS-MVVM-CleanArchitectureUITests */;
+		};
+		677001572EE29586000A8206 /* Exceptions for "iOS-MVVM-CleanArchitecture" folder in "iOS-MVVM-CleanArchitectureTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Models/Movie.swift,
+				Models/MovieListViewModel.swift,
+				Service/APIServiceProtocol.swift,
+			);
+			target = 67C60F7A2EB672CF006C36DF /* iOS-MVVM-CleanArchitectureTests */;
+		};
+		677001582EE29586000A8206 /* Exceptions for "iOS-MVVM-CleanArchitecture" folder in "iOS-MVVM-CleanArchitectureUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Models/Movie.swift,
+				Models/MovieListViewModel.swift,
+				Service/APIServiceProtocol.swift,
+			);
+			target = 67C60F842EB672CF006C36DF /* iOS-MVVM-CleanArchitectureUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		67C60F702EB672CC006C36DF /* iOS-MVVM-CleanArchitecture */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				677001572EE29586000A8206 /* Exceptions for "iOS-MVVM-CleanArchitecture" folder in "iOS-MVVM-CleanArchitectureTests" target */,
+				677001582EE29586000A8206 /* Exceptions for "iOS-MVVM-CleanArchitecture" folder in "iOS-MVVM-CleanArchitectureUITests" target */,
+			);
 			path = "iOS-MVVM-CleanArchitecture";
 			sourceTree = "<group>";
 		};
 		67C60F7E2EB672CF006C36DF /* iOS-MVVM-CleanArchitectureTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6770007D2EDF4D3C000A8206 /* Exceptions for "iOS-MVVM-CleanArchitectureTests" folder in "iOS-MVVM-CleanArchitectureUITests" target */,
+			);
 			path = "iOS-MVVM-CleanArchitectureTests";
 			sourceTree = "<group>";
 		};
@@ -397,6 +433,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 79X737MFXF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -425,6 +462,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 79X737MFXF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

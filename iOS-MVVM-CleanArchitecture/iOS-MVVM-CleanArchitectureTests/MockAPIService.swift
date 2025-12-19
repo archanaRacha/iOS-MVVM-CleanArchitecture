@@ -9,7 +9,6 @@
 import Foundation
 //@testable import MovieBrowser
 
-
 class MockAPIService: APIServiceProtocol {
     var shouldReturnError = false
 

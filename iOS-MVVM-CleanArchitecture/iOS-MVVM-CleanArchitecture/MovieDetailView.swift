@@ -1,3 +1,11 @@
+//
+//  MovieDetailView.swift
+//  iOS-MVVM-CleanArchitecture
+//
+//  Created by archana racha on 02/12/25.
+//
+
+
 import SwiftUI
 
 struct MovieDetailView: View {

@@ -11,7 +11,7 @@ import SwiftUI
 struct iOS_MVVM_CleanArchitectureApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MovieListView()
         }
     }
 }
