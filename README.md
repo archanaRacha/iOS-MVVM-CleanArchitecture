@@ -62,7 +62,9 @@ URLSession
 XCTest
 
 ## Screenshots
+<img width="828" height="1792" alt="IMG_4329" src="https://github.com/user-attachments/assets/dce07eb7-5e7c-4e14-a167-99c0eeb0aa52" />
 
+<img width="828" height="1792" alt="IMG_4330" src="https://github.com/user-attachments/assets/6e8d85a6-6514-4f82-abfd-38c37999c8c8" />
 
 ## Purpose of This Project
 This project is intended to:
