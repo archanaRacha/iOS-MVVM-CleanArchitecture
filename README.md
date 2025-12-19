@@ -73,3 +73,8 @@ Showcase modern SwiftUI patterns
 Serve as a reference implementation for scalable iOS apps
 Highlight experience with clean, testable code
 
+👤 Author
+Archana Racha
+Senior iOS Engineer
+🔗 LinkedIn: https://www.linkedin.com/in/archana-r-5600aa53/
+
