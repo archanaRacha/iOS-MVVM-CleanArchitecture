@@ -21,11 +21,11 @@ jobs:
           echo $default | cat >default
           echo Using default scheme: $default
       - name: Build
+        working-directory: ./iOS-MVVM-CleanArchitecture
         env:
           scheme: ${{ 'default' }}
           platform: ${{ 'iOS Simulator' }}
         run: |
-          cd iOS-MVVM-CleanArchitecture
           # xcrun xctrace returns via stderr, not the expected stdout (see https://developer.apple.com/forums/thread/663959)
           device=`xcrun xctrace list devices 2>&1 | grep -oE 'iPhone.*?[^\(]+' | head -1 | awk '{$1=$1;print}' | sed -e "s/ Simulator$//"`
           if [ $scheme = default ]; then scheme=$(cat default); fi
