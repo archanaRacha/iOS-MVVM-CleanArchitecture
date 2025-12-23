@@ -21,7 +21,7 @@ jobs:
           echo $default | cat >default
           echo Using default scheme: $default
       - name: Build
-        working-directory: ./PortfolioProjects/iOS-MVVM-CleanArchitecture
+        working-directory: ./iOS-MVVM-CleanArchitecture/iOS-MVVM-CleanArchitecture
         env:
           scheme: ${{ 'default' }}
           platform: ${{ 'iOS Simulator' }}
