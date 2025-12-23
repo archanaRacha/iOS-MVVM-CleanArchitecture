@@ -63,4 +63,4 @@ jobs:
           MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
           FASTLANE_USER: ${{ secrets.APPLE_ID_USERNAME }}
           FASTLANE_PASSWORD: ${{ secrets.APPLE_ID_PASSWORD }}
-        run: bundle exec fastlane ios deploy_lane  # Replace 'deploy_lane' with your lane name
+        run: bundle exec fastlane ios beta  # Replace 'deploy_lane' with your lane name
