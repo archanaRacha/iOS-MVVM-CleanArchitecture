@@ -1,0 +1,6 @@
+# app_identifier("com.ambrosiasys.iOS-MVVM-CleanArchitecture") # The bundle identifier of your app
+# apple_id("archana.racha02@gmail.com") # Your Apple Developer Portal username
+
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

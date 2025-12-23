@@ -1,0 +1,6 @@
+git_url("git@github.com:archanaRacha/iOS-Certificates.git")
+git_branch("main")
+
+storage_mode("git")
+type("appstore")
+
