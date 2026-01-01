@@ -8,12 +8,16 @@ on:
 
 jobs:
   build:
-    name: Build and Test default scheme using any available iPhone simulator
     runs-on: macos-latest
+    defaults:
+      run:
+        working-directory: iOS-MVVM-CleanArchitecture
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: List files in repo root
+        run: ls -l
       - name: Set Default Scheme
         run: |
           scheme_list=$(xcodebuild -list -json | tr -d "\n")
