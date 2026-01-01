@@ -27,6 +27,10 @@ final class iOS_MVVM_CleanArchitectureUITests: XCTestCase {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
+        XCTWaiter().wait(for: [XCTNSPredicateExpectation(
+          predicate: NSPredicate(format: "exists == true"),
+          object: app.windows.firstMatch
+        )], timeout: 300)
 
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
