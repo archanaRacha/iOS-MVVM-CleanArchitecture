@@ -55,6 +55,13 @@ jobs:
       - name: Install dependencies
         run: bundle install
 
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.MATCH_SSH_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+
       - name: Run Fastlane match (code signing)
         env:
           MATCH_PASSWORD: ${{ secrets.MATCH_PASSWORD }}
