@@ -65,6 +65,7 @@ jobs:
       - name: Verify SSH access to GitHub
         run: 
           ssh -T git@github.com
+        continue-on-error: true
             
       - name: Run Fastlane match (code signing)
         env:
